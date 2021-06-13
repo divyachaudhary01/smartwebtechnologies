@@ -1,0 +1,385 @@
+html{
+    scroll-behavior: smooth;;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar-toggler{
+    background-color: #ffa500!important;;
+}
+.customnavbg {
+    background-color: #00000033!important;
+    border-color: #e7e7e7;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 10%);
+    transition: .2s;
+    min-height: 65px;
+}
+.change-navbar-color{
+    background-color: black!important;
+    border-color: #e7e7e7;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 10%);
+    transition: .2s;
+    min-height: 65px;
+}
+.header{
+    width:100%;
+    height:60vh;
+    background-image: url("10.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+    opacity: 1;
+    color:white;
+}
+.center-div{
+    padding-top: 250px;
+}
+.center-div p{
+    font-size: 18px;
+    padding:5px 0 10px 0 ;
+}
+.h a{
+    padding:25px;
+    color: white !important;
+    text-decoration: none;
+}
+
+/*header ends*/
+.aboutus{
+    background: #f7f7f9;
+    padding:50px 0;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.aboutus h2{
+    text-align: center;
+}
+.aboutus p{
+    text-align: justify;
+}
+
+/*about ends*/
+.h-100 {
+    height: 100%!important;
+}
+.what-we-do-services {
+    background: #fff;
+    color: #333;
+    margin-bottom: 50px;
+}
+.what-we-do-services{
+    text-align: center;
+}
+.what-we-do-services h2{
+    margin-top:20px;
+    padding-bottom: 10px;
+    
+}
+.service-box {
+    border: 6px solid #ccc;
+    padding: 25px;
+    border-left: 6px solid #33a0da;
+    border-right: 6px solid #33a0da;
+    margin: 25px 0;
+    min-height: initial;
+}
+
+/*service ends*/
+
+.ope a{
+    color:rgb(77, 161, 201)!important;
+    font-style: italic;
+    font-weight: bold;
+  
+}
+.openings{
+    background: #f7f7f9;
+    padding:50px 0;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+::placeholder{
+    font-size:.85rem;
+}
+.career-box {
+    border: 1px solid #ccc;
+    padding: 2px 0;
+    overflow: hidden;
+    margin: 15px 0;
+    border-left: 5px solid #33a0da;
+    position: relative;
+}
+
+
+.c-title {
+    background: #33a0da;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+}
+.c-apply {
+    background: #7fbb42;
+    color: #fff;
+    padding: 5px 15px;
+    transition: all .45s;
+    border: 0;
+}
+
+
+/*career section end*/
+
+
+.contactus{
+    margin-top:50px;
+    margin-bottom: 50px;;
+    background: #f7f7f9;   
+    font-family: sans-serif;
+}
+
+.mt-5 {
+    margin-top: 3rem!important;
+}
+.spacer40 {
+    width: 40px;
+    height: 40px;
+    clear: both;
+    display: block;
+}
+
+.form-group{
+    padding-left:20px;
+    padding-right:20px;
+}
+.form-button button{
+    border:3px solid #ffa500;
+    border-radius: 100px;
+    margin:0 5px;
+    color:#ffa500;
+    font-weight: 400;
+    line-height: 1.4;
+    outline:none;
+    background-color: transparent;
+    text-align: center;
+
+}
+form:hover .form-button button{
+    text-decoration: none!important;
+    background: #ffa500;
+    box-shadow:0 0 20px 0 rgba(0,0,0,3);
+    color:black
+
+    /* transform: translateY(-10px); */
+}
+.cont{
+    background-color: #eedfc3 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*contact ends*/
+
+.pricing{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.pricing h2{
+    padding-bottom: 30px;
+}
+.pricing{
+    width:100%;
+    height:100vh;
+    padding:50px;
+    position:relative;
+}
+.pricing:before{
+    content:"";
+    position:absolute;
+    top:0%;
+    bottom:0%;
+    left:0;
+    right:0;
+    z-index:-1;
+    background:linear-gradient(170deg,#ecc988 55%,#fff 0%);
+}
+
+.card{
+    transition:0.4s;
+}
+
+
+
+.card:hover{
+    transform:translateY(-20px);
+    box-shadow:0 0 20px 0 rgba(0,0,0,3);
+}
+.card-body span{
+    font-size: 40px;
+    line-height: 1;
+    color:#606060;
+}
+.card{
+    transition:0.4s;
+}
+.card-header{
+    font-size: 16px;
+    font-weight:bold;
+    background:white!important;
+    padding:25px 0!important;
+}
+.card-body{
+    padding:30px 0px!important;
+}
+.card-body li{
+    margin:10px 0!important;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #606060;
+}
+.card-footer{
+  background:white!important;
+    padding:30px 0!important;
+}
+.card:hover .card-footer a{
+    box-shadow:0 0 20px 0 rgba(0,0,0,3);
+    transform: translateY(-20px);
+    background-color: orange;
+}
+.card-footer a{
+    border:3px solid orange;
+    border-radius: 100px;
+    margin:0 5px;
+    padding:12px 35px;
+    outline:none;
+    text-align: center;
+
+}
+.card:hover{
+    transform:translateY(-20px);
+    box-shadow:0 0 20px 0 rgba(0,0,0,3);
+}
+.card:hover .card-header,.card:hover .card-body span{
+    color: orange;
+
+}
+
+/*pricing ends*/
+
+.tech .t-box {
+    background: #7fbb42;
+    color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    min-height: 181px;
+}
+.dg{
+    margin-top: 20px;
+}
+.tech h2{
+    margin-top: 60px;
+}
+
+
+/*technology ends*/
+.footer-div h3{
+    font-size:16px;
+    font-weight:700;
+    color:#ffffff;
+    
+
+}
+
+
+.footersection{
+    width:100%;
+    height:auto;
+    padding:70px 0 20px 0;
+    background-color: rgb(41, 34, 20);
+    color:white;
+}
+
+.footer-div a
+{
+    text-transform:uppercase;
+    font-size:12px;font-weight:400;
+    line-height:1.6;
+    color:#ffffff!important;
+    
+}
+.footer-div p{
+    font-size:14px;
+    font-family:sans-serif;
+    color:#ffffff!important;
+}
+    
+/*footer ends*/
+
+#myBtn{
+    display:none;
+    position:fixed;
+    right:40px;
+    bottom:20px;
+    z-index:99;
+    background-color: plum;
+    color:red;
+    padding:10px;
+    border-radius:10px;
+}
+#myBtn:hover{
+    background-color: greenyellow
+}
+@media(max-width:768px){
+    .nav-item{
+        text-align:center!important;
+    }
+    .pricing, .feedback,.contactus{
+        height:auto;
+        margin-top: 50px;
+    }
+    .card-2{
+        transform:translateY(0px);
+        margin:30px 0;
+    }
+    .footer-div{
+        margin:30px 0;
+        text-align:left!important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
